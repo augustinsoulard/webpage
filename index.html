@@ -3,13 +3,24 @@
 <html>
 
 <head>
+  <meta charset="UTF-8">
+	 <script>
+		document.addEventListener('DOMContentLoaded', function() {
+		  fetch('base/nav.html')
+			.then(response => response.text())
+			.then(data => {
+			  document.getElementById('contenu').innerHTML = data;
+			});
+		});
+	  </script>
 
-<?php include "base/head.php";?>
+<!--?php include "base/head.php";?-->
 
 </head>
 
 <body>
 
+	<div id="contenu"></div>
 	<?php include "base/nav.php";?>
 
 	<header>
@@ -33,7 +44,6 @@
 
 
 </body>
-
 		
 
 </html>
