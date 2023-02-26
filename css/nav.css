@@ -1,0 +1,135 @@
+@keyframes rotateAnim {
+    from {transform: rotateY(0);}
+    to {transform: rotateY(360deg);}
+}
+#menu, #menu ul{
+padding:0;
+margin:0;
+list-style:none;
+text-align:center;
+}
+#menu li{
+display:inline-block;
+position:relative;}
+#menu li.btn{
+text-align:center;
+width:180px;
+font-size:25px;
+margin-right:14px;
+transition: 0.5s 0.5s border-radius;
+border-radius:6px 6px 6px 6px;
+}
+#menu ul li{
+display:inherit;
+border-radius:0;
+}
+#menu ul li:hover{
+border-radius:0;
+}
+#menu ul li:last-child{
+border-radius:0px 0px 6px 6px;
+}
+#menu ul{
+position:absolute;
+z-index: 1000;
+max-height:0;
+left: 0;
+right: 0;
+overflow:hidden;
+-moz-transition: 0.5s all 0.2s;
+-webkit-transition: 1s all 0.2s;
+transition: 0.5s all 0.2s;
+}
+#menu li:hover ul{
+max-height:15em;
+}
+/* background des liens menus */
+#menu li.logo:first-child{
+	margin-right:25px;
+}
+#menu li:nth-child(2){
+background: linear-gradient(180deg, #4d6f4d, #638c63)
+}
+#menu li:nth-child(3){
+background: linear-gradient(180deg, #4d6f4d, #638c63)
+}
+#menu li:nth-child(4){
+background: linear-gradient(180deg, #4d6f4d, #638c63)
+}
+#menu li:last-child{
+	background: linear-gradient(180deg, #4d6f4d, #638c63)
+}
+
+/* background des liens sous menus */
+#menu li:first-child li{
+	background: linear-gradient(180deg, #629562, #67a067)
+}
+#menu li:nth-child(2) li{
+	background: linear-gradient(180deg, #629562, #67a067)
+}
+#menu li:nth-child(3) li{
+	background: linear-gradient(180deg, #629562, #67a067)
+}
+#menu li:nth-child(4) li{
+	background: linear-gradient(180deg, #629562, #67a067)
+}
+#menu li:last-child li{
+	background: linear-gradient(180deg, #629562, #67a067)
+}
+/* background des liens menus et sous menus au survol */
+#menu li:first-child li:hover{
+	background: linear-gradient(180deg, #000, #444)
+}
+#menu li:nth-child(2):hover, #menu li:nth-child(2) li:hover{
+	background: linear-gradient(180deg, #000, #444)
+}
+#menu li:nth-child(3):hover, #menu li:nth-child(3) li:hover{
+	background: linear-gradient(180deg, #000, #444)
+}
+#menu li:nth-child(4):hover, #menu li:nth-child(4) li:hover{
+	background: linear-gradient(180deg, #000, #444)
+}
+#menu li:last-child:hover, #menu li:last-child li:hover{
+	background: linear-gradient(180deg, #000, #444)
+}
+/* les a href */
+#menu a{
+text-decoration:none;
+display:block;
+padding:8px 15px;
+color:#fff;
+font-family:arial;
+}
+#menu ul a{
+padding:8px 0;
+}
+#menu li:hover li a{
+color:#fff;
+text-transform:inherit;
+}
+#menu li:nth-child(3):hover{
+	transition: 0.2s 0.2s border-radius;
+	border-radius:6px 6px 0px 0px;
+}
+#menu li:hover a.a1 {font-weight:bold;}
+#menu li:hover li a{font-weight:medium;}
+#menu li li a{font-weight:medium;}
+#menu li li:hover a{font-weight:bold;}
+
+
+
+.logo{
+animation: rotateAnim 10s linear infinite;
+}
+.logo:hover {
+	opacity:0.5;
+}
+
+ul#menu li.btn:active  a{
+	opacity:50%;
+}
+ul#menu li.nav img.logo {
+	position:relative;
+	right: 10px;
+	top:18px;
+}
