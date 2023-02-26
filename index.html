@@ -3,25 +3,21 @@
 <html>
 
 <head>
-  <meta charset="UTF-8">
-	 <script>
-		document.addEventListener('DOMContentLoaded', function() {
-		  fetch('base/nav.html')
-			.then(response => response.text())
-			.then(data => {
-			  document.getElementById('contenu').innerHTML = data;
-			});
-		});
-	  </script>
-
-<!--?php include "base/head.php";?-->
-
+<meta charset="UTF-8">
+<title>Augustin Soulard</title>
+<meta property="og:title" content="Augustin Soulard" />
+<meta property="og:url" content="https://augustin-soulard.000webhostapp.com/" />
+<meta property="og:image" content="https://augustin-soulard.000webhostapp.com/img/AS.png" />
+<meta property="og:description" content="Natural-HOST" />
+<meta property="og:site_name" content="Augustin Soulard" />
+<link rel="stylesheet" type="text/css" href="css/augu.css">
+<link rel="stylesheet" type="text/css" href="css/nav.css">
+<link rel="SHORTCUT ICON" href="img/AS.ico">
+<script src="base/head.js"></script>
 </head>
 
 <body>
-
-	<div id="contenu"></div>
-	<?php include "base/nav.php";?>
+<script src="base/Menu.js"></script>
 
 	<header>
 
@@ -38,8 +34,7 @@
 	<p> Vous pouvez naviguer en toute <a class ="cot" href="Clash_of_tank/CoT.html">liberté</a> sur ce site. Mon CV est à disposition, ainsi qu'une base de données de documents et sites naturalistes (en cours...)</p>
 
 	
-
-<footer><?php include "base/footer.php";?></footer>
+<script src="base/footer.js"></script>
 
 
 
