@@ -8,21 +8,21 @@ document.write('\
 	</li>\
 \
 	<li class="btn nav">\
-		<a class="a1" href="CV.php">CV</a>\
+		<a class="a1" href="CV.html">CV</a>\
 		<ul>\
 			<li>\
-				<a href="CV.php">Basique</a>\
+				<a href="CV.html">Basique</a>\
 			</li>\
 			<li>\
-				<a href="index-cv.php">Web</a>\
+				<a href="index-cv.html">Web</a>\
 			</li>\
 		</ul>\
 	</li>\
 	<li class="btn nav">\
-		<a class="a1" href="Naturalhost.php">Natural-host</a>\
+		<a class="a1" href="Naturalhost.html">Natural-host</a>\
 	</li>\
 	<li class="btn nav">\
-		<a class="a1" href="mesProjets.php">Mes projets</a>\
+		<a class="a1" href="mesProjets.html">Mes projets</a>\
 	</li>\
 </ul>\
 \
