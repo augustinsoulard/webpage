@@ -1,6 +1,6 @@
 	<header>
-		<h1>Coléoptères</h1>
-	</header>
+		<h1>Coléoptères</h1>		<script>		// Récupération de tous les éléments de listeconst treeItems = document.querySelectorAll("li");// Parcours de tous les éléments de liste et ajout des boutonstreeItems.forEach((item) => {  // Vérification si l'élément a des enfants  if (item.querySelector("ul")) {    // Création du bouton    const button = document.createElement("button");    button.innerText = "+";    // Ajout de la classe pour styliser le bouton    button.classList.add("expand-button");    // Ajout de l'événement click pour afficher/cacher les enfants    button.addEventListener("click", () => {      const childList = item.querySelector("ul");      const isExpanded = childList.classList.toggle("expanded");      button.innerText = isExpanded ? "-" : "+";    });    // Ajout du bouton avant le texte de l'élément    item.insertBefore(button, item.firstChild);  }});</script>
+	</header>
 
 
 <div class = baseContent>
