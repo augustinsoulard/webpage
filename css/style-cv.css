@@ -12,6 +12,7 @@ section {
     display: table;
     width: 100%;
 }
+
 .section-container {
     background-color: #557a55;
     margin: 50px 20% 50px;
@@ -319,4 +320,7 @@ a.cv_index{
   display: block;
   padding:10px;
   font-size: 300px;
+}
+p{
+  color:floralwhite;
 }

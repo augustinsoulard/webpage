@@ -5,8 +5,8 @@ document.write('\
 <meta property="og:image" content="https://augustin-soulard.000webhostapp.com/img/AS.png" />\
 <meta property="og:description" content="Natural-HOST" />\
 <meta property="og:site_name" content="Augustin Soulard" />\
-<link rel="stylesheet" type="text/css" href="css/naturalhost.css">\
 <link rel="stylesheet" type="text/css" href="css/nav.css">\
+<link rel="stylesheet" type="text/css" href="css/footer.css">\
 <link rel="SHORTCUT ICON" href="img/AS.ico">\
 \
 ');
