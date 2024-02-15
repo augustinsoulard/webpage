@@ -19,7 +19,7 @@ document.write('\
 		</ul>\
 	</li>\
 	<li class="btn nav">\
-		<a class="a1" href="Natural-host.html" target="_blank">Natural-host</a>\
+		<a class="a1" href="https://natural-host.glide.page" target="_blank">Natural-host</a>\
 	</li>\
 	<li class="btn nav">\
 		<a class="a1" href="mesProjets.html">Mes projets</a>\
