@@ -19,7 +19,7 @@ document.write('\
 		</ul>\
 	</li>\
 	<li class="btn nav">\
-		<a class="a1" href="https://natural-host.glide.page" target="_blank">Natural-host</a>\
+		<a class="a1" href="https://augustinsoulard.notion.site/c987567937324fcdb13277950b30af0a?v=e6c7928aaebd48cbb3a8f1182d42547b" target="_blank">Natural-host</a>\
 	</li>\
 	<li class="btn nav">\
 		<a class="a1" href="mesProjets.html">Mes projets</a>\
